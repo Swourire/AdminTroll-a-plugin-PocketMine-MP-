@@ -31,4 +31,3 @@ class threesixtyTask extends Task{
         }
     }
 }
-?>
