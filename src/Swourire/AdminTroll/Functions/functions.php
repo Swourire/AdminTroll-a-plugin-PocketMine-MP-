@@ -18,7 +18,7 @@ use pocketmine\entity\EffectInstance;
 
 
 
-class Functions {
+class functions {
     private $plugin;
 
     public function __construct(Main $plugin){
