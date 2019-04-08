@@ -14,18 +14,17 @@ use Swourire\AdminTroll\Task\threesixtyTask;
 use pocketmine\entity\Effect;
 use pocketmine\entity\EffectInstance;
 
-
-
-
-
-class functions {
+class functions
+{
     private $plugin;
 
-    public function __construct(Main $plugin){
+    public function __construct(Main $plugin)
+    {
         $this->plugin = $plugin;
     }
-    
-    public function addTrollInventory(Player $player){
+
+    public function addTrollInventory(Player $player)
+    {
         $smite = Item::get(369, 0, 1);
         $smite->setCustomName('§l§1> §r§bReal Smiter');
         $player->getInventory()->addItem($smite);
@@ -36,8 +35,8 @@ class functions {
 
         $trap = Item::get(20, 0, 1);
         $trap->setCustomName('§l§1> §r§bTrapper');
-        $player->getInventory()->addItem($trap); 
-        
+        $player->getInventory()->addItem($trap);
+
         $void = Item::get(119, 0, 1);
         $void->setCustomName('§l§1> §r§b360°');
         $player->getInventory()->addItem($void);
@@ -63,7 +62,7 @@ class functions {
         $player->getInventory()->addItem($vanish);
     }
 
-     /**
+    /**
      * @param Player $player
      */
     public function sendLightning(Player $player): void
@@ -82,8 +81,9 @@ class functions {
 
     }
 
-    public function trapPlayer(Player $player){
-        
+    public function trapPlayer(Player $player)
+    {
+
         $pos = $player->getPosition();
         $level = $player->getLevel();
         $x = $pos->getX();
@@ -102,28 +102,28 @@ class functions {
         $b10 = new Position($x, $y - 1, $z); //block under
 
         $pos = array(
-        $b1, 
-        $b2, 
-        $b3,
-        $b4, 
-        $b5, 
-        $b6, 
-        $b7, 
-        $b8, 
-        $b9, 
-        $b10
+            $b1,
+            $b2,
+            $b3,
+            $b4,
+            $b5,
+            $b6,
+            $b7,
+            $b8,
+            $b9,
+            $b10
         );
         $block = array(
-        $level->getBlockAt($x + 1, $y, $z),
-        $level->getBlockAt($x + 1, $y + 1, $z),
-        $level->getBlockAt($x - 1, $y + 1, $z),
-        $level->getBlockAt($x - 1, $y, $z),
-        $level->getBlockAt($x, $y + 2, $z),
-        $level->getBlockAt($x, $y, $z + 1), 
-        $level->getBlockAt($x, $y + 1, $z + 1), 
-        $level->getBlockAt($x, $y, $z - 1),
-         $level->getBlockAt($x, $y + 1, $z - 1), 
-         $level->getBlockAt($x, $y - 1, $z)
+            $level->getBlockAt($x + 1, $y, $z),
+            $level->getBlockAt($x + 1, $y + 1, $z),
+            $level->getBlockAt($x - 1, $y + 1, $z),
+            $level->getBlockAt($x - 1, $y, $z),
+            $level->getBlockAt($x, $y + 2, $z),
+            $level->getBlockAt($x, $y, $z + 1),
+            $level->getBlockAt($x, $y + 1, $z + 1),
+            $level->getBlockAt($x, $y, $z - 1),
+            $level->getBlockAt($x, $y + 1, $z - 1),
+            $level->getBlockAt($x, $y - 1, $z)
         );
         $this->plugin->getScheduler()->scheduleRepeatingTask(new ResetTask($this->plugin, $block, $pos, $level), 20);
         $level->setBlock($b1, new Glass(), false);
@@ -139,20 +139,23 @@ class functions {
 
     }
 
-    public function threesixtyPlayer(Player $player){
+    public function threesixtyPlayer(Player $player)
+    {
         $this->plugin->player = $player;
         $this->plugin->getScheduler()->scheduleRepeatingTask(new threesixtyTask($this->plugin, $player), 20);
     }
 
-    public function freezePlayer(Player $player){
-        if($player->isImmobile()){
+    public function freezePlayer(Player $player)
+    {
+        if ($player->isImmobile()) {
             $player->setImmobile(false);
-        }else{
+        } else {
             $player->setImmobile(true);
         }
     }
 
-    public function slowPlayer(Player $player){
+    public function slowPlayer(Player $player)
+    {
 
         $slowness = Effect::getEffect(2);
         $instance = new EffectInstance($slowness, 2 * 20, 3, false);
@@ -160,13 +163,15 @@ class functions {
 
     }
 
-    public function jumpPlayer(Player $player){
+    public function jumpPlayer(Player $player)
+    {
 
         array_push($this->plugin->toJump, $player);
 
     }
 
-    public function vanishPlayer(Player $player){
+    public function vanishPlayer(Player $player)
+    {
 
         $invis = Effect::getEffect(14);
         $instance = new EffectInstance($invis, 2147483647, 3, false);
@@ -174,13 +179,15 @@ class functions {
 
     }
 
-    public function fakeOpPlayer(Player $player){
+    public function fakeOpPlayer(Player $player)
+    {
 
         $player->sendMessage("§7You are now op!");
 
     }
-    
-    public function resetAdminMode(Player $player){
+
+    public function resetAdminMode(Player $player)
+    {
 
         $player->getInventory()->clearAll();
         $player->getArmorInventory()->clearAll();
