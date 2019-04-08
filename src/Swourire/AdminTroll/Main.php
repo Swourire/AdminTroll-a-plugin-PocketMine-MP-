@@ -10,45 +10,45 @@ use Swourire\AdminTroll\Events\Events;
 use pocketmine\Player;
 use Swourire\AdminTroll\Functions\functions;
 
+class Main extends PluginBase implements Listener
+{
 
+    public $switch = [];
+    const RESET_TIME = 10;
+    const PREFIX = "[§4Admin Troll§f]";
 
+    public function onEnable(): void
+    {
+        $this->getServer()->getPluginManager()->registerEvents(new Events($this), $this);
+        $this->functions = new functions($this);
+    }
 
+    public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool
+    {
 
-class Main extends PluginBase implements Listener{
+        if ($sender instanceof Player) {
 
-	public $switch = [];
-	const RESET_TIME = 10;
-	const PREFIX = "[§4Admin Troll§f]";
-		public function onEnable() : void{
-			$this->getServer()->getPluginManager()->registerEvents(new Events($this), $this);
-			$this->functions = new functions($this);
-		}
+            if (in_array($sender, $this->switch)) {
+                $sender->sendMessage(self::PREFIX . "§c OFF");
 
-		public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{				
-				
-			if($sender instanceof Player){
+                $key = array_search($sender, $this->switch);
+                unset($this->switch[$key]);
 
-				if(in_array($sender, $this->switch)){
-						$sender->sendMessage(self::PREFIX ."§c OFF");
+                $this->functions->resetAdminMode($sender);
 
-						$key = array_search($sender, $this->switch);
-						unset($this->switch[$key]);
-						
-						$this->functions->resetAdminMode($sender);
+            } else {
 
-				}else{
+                $sender->sendMessage(self::PREFIX . "§a ON");
 
-						$sender->sendMessage(self::PREFIX ."§a ON");
+                $this->functions->resetAdminMode($sender);
+                $this->functions->addTrollInventory($sender);
 
-						$this->functions->resetAdminMode($sender);
-						$this->functions->addTrollInventory($sender);
+                array_push($this->switch, $sender);
 
-						array_push($this->switch, $sender);	
-
-				}
-			}else{
-					$this->getLogger()->info( self::PREFIX ." You can't send this command from console !");
-			}					
-				return true;
-		}	
-	}
+            }
+        } else {
+            $this->getLogger()->info(self::PREFIX . " You can't send this command from console !");
+        }
+        return true;
+    }
+}
