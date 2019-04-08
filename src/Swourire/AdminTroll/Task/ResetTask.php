@@ -37,4 +37,3 @@ class ResetTask extends Task{
         }
     }
 }
-?>
