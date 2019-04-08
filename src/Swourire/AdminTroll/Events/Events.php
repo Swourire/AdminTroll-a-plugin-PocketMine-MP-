@@ -90,5 +90,3 @@ class Events implements Listener{
         }
     }
 }
-?>
-
