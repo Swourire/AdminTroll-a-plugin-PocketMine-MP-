@@ -50,7 +50,7 @@ class Main extends PluginBase implements Listener{
 
 				}
 			}else{
-					$this->getLogger()->info( self::PREFIX ." You can't send this command from console !");
+					$sender->sendMessage(self::PREFIX ."§c Can't be sent by other than a player !");
 			}					
 				return true;
 		}	
