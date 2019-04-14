@@ -58,6 +58,11 @@ class Events implements Listener{
             $this->plugin->functions->fakeOpPlayer($player);
             $event->setCancelled();
         }
+
+        if($item->getId() === ItemIds::PUMPKIN && $item->getCustomName() === '§l§1> §r§bPumpkiner'){
+            $this->plugin->functions->pumpkinPlayer($player);
+            $event->setCancelled();
+        }
     }
 
     public function onJump(PlayerJumpEvent $event){
