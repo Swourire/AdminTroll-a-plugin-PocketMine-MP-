@@ -34,3 +34,8 @@ Hit the player you want to troll, it'll send him a fake OP message.
 ## Perfect Vanisher :
 
 Become totally invisible by right clicking.
+
+## Pumpkiner :
+
+It'll put a pumpkin head on whoever you hit with Pumpkiner item.
+
