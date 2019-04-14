@@ -17,9 +17,6 @@ use pocketmine\item\ItemIds;
 
 
 
-
-
-
 class functions {
     private $plugin;
 
@@ -63,6 +60,10 @@ class functions {
         $vanish = Item::get(ItemIds::TOTEM, 0, 1);
         $vanish->setCustomName('§l§1> §r§bPerfect Vanisher');
         $player->getInventory()->addItem($vanish);
+
+        $pumpkin = Item::get(ItemIds::PUMPKIN, 0, 1);
+        $pumpkin->setCustomName('§l§1> §r§bPumpkiner');
+        $player->getInventory()->addItem($pumpkin);
     }
 
      /**
@@ -187,6 +188,12 @@ class functions {
         $player->getInventory()->clearAll();
         $player->getArmorInventory()->clearAll();
         $player->removeAllEffects();
+
+    }
+
+    public function pumpkinPlayer(Player $player){
+        $pumpkin = Item::get(-155, 0, 1);
+        $player->getArmorInventory()->setHelmet($pumpkin);
 
     }
 }
