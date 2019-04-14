@@ -9,6 +9,8 @@ use pocketmine\entity\EffectInstance;
 use pocketmine\event\player\PlayerInteractEvent;
 use Swourire\AdminTroll\Main;
 use pocketmine\event\player\PlayerQuitEvent;
+use pocketmine\item\ItemIds;
+
 
 
 class Events implements Listener{
@@ -24,35 +26,35 @@ class Events implements Listener{
         $player = $event->getEntity();
 
         $item = $damager->getInventory()->getItemInHand();
-        if($item->getId() === 369 && $item->getCustomName() === '§l§1> §r§bReal Smiter'){
+        if($item->getId() === ItemIds::BLAZE_ROD && $item->getCustomName() === '§l§1> §r§bReal Smiter'){
             $this->plugin->functions->sendLightning($player);
         }
-        if($item->getId() === 280 && $item->getCustomName() === '§l§1> §r§bFalse Smiter'){
+        if($item->getId() === ItemIds::STICK && $item->getCustomName() === '§l§1> §r§bFalse Smiter'){
             $this->plugin->functions->sendLightning($player);
             $event->setCancelled();
         }
-        if($item->getId() === 20 && $item->getCustomName() === '§l§1> §r§bTrapper'){
+        if($item->getId() === ItemIds::GLASS && $item->getCustomName() === '§l§1> §r§bTrapper'){
             $this->plugin->functions->trapPlayer($player);
             $event->setCancelled();
         }
-        if($item->getId() === 119 && $item->getCustomName() === '§l§1> §r§b360°'){
+        if($item->getId() === ItemIds::END_PORTAL && $item->getCustomName() === '§l§1> §r§b360°'){
             $this->plugin->functions->threesixtyPlayer($player);
             $event->setCancelled();
         }
-        if($item->getId() === 174 && $item->getCustomName() === '§l§1> §r§bFreezer'){
+        if($item->getId() === ItemIds::FROSTED_ICE && $item->getCustomName() === '§l§1> §r§bFreezer'){
             $this->plugin->functions->freezePlayer($player);
             $event->setCancelled();
         }
-        if($item->getId() === 30 && $item->getCustomName() === '§l§1> §r§bSlower'){
+        if($item->getId() === ItemIDs::COBWEB && $item->getCustomName() === '§l§1> §r§bSlower'){
             $this->plugin->functions->slowPlayer($player);
             $event->setCancelled();
         }
-        if($item->getId() === 165 && $item->getCustomName() === '§l§1> §r§bJumper'){
+        if($item->getId() === ItemIds::SLIME_BLOCK && $item->getCustomName() === '§l§1> §r§bJumper'){
             $this->plugin->functions->jumpPlayer($player);
             $event->setCancelled();
         }
 
-        if($item->getId() === 385 && $item->getCustomName() === '§l§1> §r§bFake OP'){
+        if($item->getId() === ItemIds::FIREBALL && $item->getCustomName() === '§l§1> §r§bFake OP'){
             $this->plugin->functions->fakeOpPlayer($player);
             $event->setCancelled();
         }
@@ -61,7 +63,7 @@ class Events implements Listener{
     public function onJump(PlayerJumpEvent $event){
         $player = $event->getPlayer();
         if(in_array($player, $this->plugin->toJump)){
-            $jump = Effect::getEffect(24);
+            $jump = Effect::getEffect(Effect::LEVITATION);
         $instance = new EffectInstance($jump, 1 * 20, 50, false);
         $player->addEffect($instance);
         $key = array_search($player, $this->plugin->toJump);
@@ -73,7 +75,7 @@ class Events implements Listener{
         $item = $event->getItem();
         $player = $event->getPlayer();
         
-        if($item->getId() === 449 && $item->getCustomName() === '§l§1> §r§bPerfect Vanisher'){
+        if($item->getId() === ItemIds::TOTEM && $item->getCustomName() === '§l§1> §r§bPerfect Vanisher'){
             $this->plugin->functions->vanishPlayer($player);
             $event->setCancelled();
         }
