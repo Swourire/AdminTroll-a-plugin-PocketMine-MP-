@@ -13,6 +13,8 @@ use Swourire\AdminTroll\Task\ResetTask;
 use Swourire\AdminTroll\Task\threesixtyTask;
 use pocketmine\entity\Effect;
 use pocketmine\entity\EffectInstance;
+use pocketmine\item\ItemIds;
+
 
 
 
@@ -26,39 +28,39 @@ class functions {
     }
     
     public function addTrollInventory(Player $player){
-        $smite = Item::get(369, 0, 1);
+        $smite = Item::get(ItemIds::BLAZE_ROD, 0, 1);
         $smite->setCustomName('§l§1> §r§bReal Smiter');
         $player->getInventory()->addItem($smite);
 
-        $fsmite = Item::get(280, 0, 1);
+        $fsmite = Item::get(ItemIds::STICK, 0, 1);
         $fsmite->setCustomName('§l§1> §r§bFalse Smiter');
         $player->getInventory()->addItem($fsmite);
 
-        $trap = Item::get(20, 0, 1);
+        $trap = Item::get(ItemIds::GLASS, 0, 1);
         $trap->setCustomName('§l§1> §r§bTrapper');
         $player->getInventory()->addItem($trap); 
         
-        $void = Item::get(119, 0, 1);
+        $void = Item::get(ItemIds::END_PORTAL, 0, 1);
         $void->setCustomName('§l§1> §r§b360°');
         $player->getInventory()->addItem($void);
 
-        $freezer = Item::get(174, 0, 1);
+        $freezer = Item::get(ItemIds::FROSTED_ICE, 0, 1);
         $freezer->setCustomName('§l§1> §r§bFreezer');
         $player->getInventory()->addItem($freezer);
 
-        $slower = Item::get(30, 0, 1);
+        $slower = Item::get(ItemIDs::COBWEB, 0, 1);
         $slower->setCustomName('§l§1> §r§bSlower');
         $player->getInventory()->addItem($slower);
 
-        $bunny = Item::get(165, 0, 1);
+        $bunny = Item::get(ItemIds::SLIME_BLOCK, 0, 1);
         $bunny->setCustomName('§l§1> §r§bJumper');
         $player->getInventory()->addItem($bunny);
 
-        $op = Item::get(385, 0, 1);
+        $op = Item::get(ItemIds::FIREBALL, 0, 1);
         $op->setCustomname('§l§1> §r§bFake OP');
         $player->getInventory()->addItem($op);
 
-        $vanish = Item::get(449, 0, 1);
+        $vanish = Item::get(ItemIds::TOTEM, 0, 1);
         $vanish->setCustomName('§l§1> §r§bPerfect Vanisher');
         $player->getInventory()->addItem($vanish);
     }
@@ -154,7 +156,7 @@ class functions {
 
     public function slowPlayer(Player $player){
 
-        $slowness = Effect::getEffect(2);
+        $slowness = Effect::getEffect(Effect::SLOWNESS);
         $instance = new EffectInstance($slowness, 2 * 20, 3, false);
         $player->addEffect($instance);
 
@@ -168,7 +170,7 @@ class functions {
 
     public function vanishPlayer(Player $player){
 
-        $invis = Effect::getEffect(14);
+        $invis = Effect::getEffect(Effect::INVISIBILITY);
         $instance = new EffectInstance($invis, 2147483647, 3, false);
         $player->addEffect($instance);
 
