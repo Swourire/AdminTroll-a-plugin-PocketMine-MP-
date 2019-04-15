@@ -64,6 +64,15 @@ class functions {
         $pumpkin = Item::get(ItemIds::PUMPKIN, 0, 1);
         $pumpkin->setCustomName('§l§1> §r§bPumpkiner');
         $player->getInventory()->addItem($pumpkin);
+
+        $switcher = Item::get(ItemIds::SNOWBALL, 0, 1);
+        $switcher->setCustomName('§l§1> §r§bSwitcher');
+        $player->getInventory()->addItem($switcher);
+
+        $puncher = Item::get(ItemIds::SLIME_BALL, 0, 1);
+        $puncher->setCustomName('§l§1> §r§bPuncher');
+        $player->getInventory()->addItem($puncher);
+
     }
 
      /**
@@ -195,5 +204,11 @@ class functions {
         $pumpkin = Item::get(-155, 0, 1);
         $player->getArmorInventory()->setHelmet($pumpkin);
 
+    }
+
+    public function switchPlayer(Player $sender, Player $target){
+        $positionsender = $sender->getPosition();
+        $sender->teleport($target->getPosition());
+        $target->teleport($positionsender);
     }
 }
