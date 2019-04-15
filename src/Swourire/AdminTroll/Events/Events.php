@@ -63,7 +63,18 @@ class Events implements Listener{
             $this->plugin->functions->pumpkinPlayer($player);
             $event->setCancelled();
         }
+
+        if($item->getId() === ItemIds::SLIME_BALL && $item->getCustomName() === '§l§1> §r§bPuncher'){
+            $event->setKnockback(7);
+        }
+
+        if($item->getId() === ItemIds::SNOWBALL && $item->getCustomName() === '§l§1> §r§bSwitcher'){
+            $this->plugin->functions->switchPlayer($player, $damager);
+            $event->setCancelled();
+        }
     }
+
+
 
     public function onJump(PlayerJumpEvent $event){
         $player = $event->getPlayer();
