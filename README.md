@@ -39,3 +39,10 @@ Become totally invisible by right clicking.
 
 It'll put a pumpkin head on whoever you hit with Pumpkiner item.
 
+## Puncher :
+
+It'll blow in the air whoever you touch !
+
+## Switcher :
+
+Throw the snowball and switch with whoever you touch.
