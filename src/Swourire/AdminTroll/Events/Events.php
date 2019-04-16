@@ -23,7 +23,9 @@ class Events implements Listener{
     public function onPlayerHit(EntityDamageByEntityEvent $event){
         $damager = $event->getDamager();
 
-        $player = $event->getEntity();
+        if($event->getEntity() instanceof Player) $player = $event->getEntity(); else return;
+
+        
 
         $item = $damager->getInventory()->getItemInHand();
         if($item->getId() === ItemIds::BLAZE_ROD && $item->getCustomName() === '§l§1> §r§bReal Smiter'){
