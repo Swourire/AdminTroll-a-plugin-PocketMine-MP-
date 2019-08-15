@@ -6,7 +6,7 @@ use Swourire\AdminTroll\Main;
 use pocketmine\Player;
 use pocketmine\item\Item;
 use pocketmine\level\Position;
-use pocketmine\network\mcpe\protocol\AddEntityPacket;
+use pocketmine\network\mcpe\protocol\AddActorPacket;
 use pocketmine\entity\Entity;
 use pocketmine\block\Glass;
 use Swourire\AdminTroll\Task\ResetTask;
@@ -83,7 +83,7 @@ class functions {
 
         $level = $player->getLevel();
 
-        $lightning = new AddEntityPacket();
+        $lightning = new AddActorPacket();
         $lightning->type = 93;
         $lightning->entityRuntimeId = Entity::$entityCount++;
         $lightning->metadata = [];
