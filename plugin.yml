@@ -1,15 +1,17 @@
 
 name: AdminTroll
 main: Swourire\AdminTroll\Main
-version: 1.0.0
+version: 1.1.0
 api: 3.2.0
 
 author: Swourire
 commands:
  admintroll:
   description:  Admin Troll on/off.
-  usage: "/admintroll"
+  usage: "Type /admintroll with nothing after, it'll give you the inventory"
   permission: AdminTroll.perm
   default: false
+ troll:
+  description: Invoke a troll
 
  

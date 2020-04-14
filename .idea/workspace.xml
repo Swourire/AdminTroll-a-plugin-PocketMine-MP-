@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06769b5f-c167-4e76-ac57-d3860549f4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollItems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeLightning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeOp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Freeze.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Jump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Pumpkin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Punch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/RealLightning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Slow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/SnowSwitch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/ThreeSixtyTask.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/TrapResetTask.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/ThreeSixty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Trap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Vanish.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Events/Events.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Functions/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Task/ResetTask.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Task/threesixtyTask.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeOp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Freeze.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Punch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/RealLightning.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#54#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Slow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="e#54#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/SnowSwitch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/ThreeSixty.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#54#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Trap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#54#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Vanish.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="e#54#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/LightningTrait.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/TrapResetTask.php" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/ThreeSixtytask.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/ThreeSixtyTask.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Functions/functions.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/vanish.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeLightning.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeOp.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Punch.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Pumpkin.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Jump.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Freeze.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/RealLightning.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Slow.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/SnowSwitch.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/ThreeSixty.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Trap.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Vanish.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../src" />
+    </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/AdminTroll-a-plugin-PocketMine-MP-.iml" />
+        <option value="$PROJECT_DIR$/.idea/php.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="952" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Swourire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Swourire" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminTroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Swourire" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminTroll" type="462c0819:PsiDirectoryNode" />
+              <item name="Troll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Swourire" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminTroll" type="462c0819:PsiDirectoryNode" />
+              <item name="Troll" type="462c0819:PsiDirectoryNode" />
+              <item name="Trolls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminTroll-a-plugin-PocketMine-MP-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06769b5f-c167-4e76-ac57-d3860549f4bb" name="Default Changelist" comment="" />
+      <created>1586874175953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586874175953</updated>
+      <workItem from="1586874177127" duration="11959000" />
+      <workItem from="1586886313954" duration="748000" />
+      <workItem from="1586887098868" duration="894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13601000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Floobits" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../src/pocketmine/network/mcpe/protocol/AddEntityPacket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/LightningTrait.php" />
+    <entry file="file://$PROJECT_DIR$/../../src/pocketmine/level/ChunkLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/pocketmine/level/Position.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.poggit.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Task/ResetTask.php" />
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Task/threesixtyTask.php" />
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Events/Events.php" />
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Functions/functions.php" />
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/TrapResetTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#58#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/ThreeSixtyTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#60#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="136" column="36" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="81" column="9" selection-start-line="78" selection-start-column="7" selection-end-line="81" selection-end-column="9" />
+          <folding>
+            <element signature="e#47#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeLightning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#52#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Pumpkin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#54#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Jump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Freeze.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeOp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Punch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/RealLightning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#54#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Slow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#54#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/SnowSwitch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/ThreeSixty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#54#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Trap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#54#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Vanish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#54#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
