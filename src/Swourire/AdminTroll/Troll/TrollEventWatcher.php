@@ -35,7 +35,7 @@ class TrollEventWatcher implements Listener
     {
         $damager = $event->getDamager();
         $damaged = $event->getEntity();
-        if (!$damager instanceof Player && !$damaged instanceof Player) return;
+        if (!$damager instanceof Player || !$damaged instanceof Player) return;
 
         $itemInHand = $damager->getInventory()->getItemInHand();
         if(!TrollItems::isTrollItem($itemInHand)) return;

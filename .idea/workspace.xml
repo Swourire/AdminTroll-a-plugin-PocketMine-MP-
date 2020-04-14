@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06769b5f-c167-4e76-ac57-d3860549f4bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollItems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeLightning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeOp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Freeze.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Jump.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Pumpkin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Punch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/RealLightning.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Slow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/SnowSwitch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/ThreeSixtyTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/TrapResetTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/ThreeSixty.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Trap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Vanish.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Events/Events.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Functions/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Task/ResetTask.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Task/threesixtyTask.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +21,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Freeze.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="151">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="e#47#76#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -154,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Tasks/ThreeSixtyTask.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Functions/functions.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/vanish.php" />
-        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Main.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeLightning.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeOp.php" />
@@ -169,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Trap.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/Vanish.php" />
         <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollBase.php" />
+        <option value="$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php" />
       </list>
     </option>
   </component>
@@ -188,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -256,6 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -286,12 +268,12 @@
       <updated>1586874175953</updated>
       <workItem from="1586874177127" duration="11959000" />
       <workItem from="1586886313954" duration="748000" />
-      <workItem from="1586887098868" duration="894000" />
+      <workItem from="1586887098868" duration="1848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13601000" />
+    <option name="totallyTimeSpent" value="14555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -418,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="81" column="9" selection-start-line="78" selection-start-column="7" selection-end-line="81" selection-end-column="9" />
-          <folding>
-            <element signature="e#47#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/Trolls/FakeLightning.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -537,6 +509,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Swourire/AdminTroll/Troll/TrollEventWatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="e#47#76#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
