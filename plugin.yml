@@ -2,7 +2,7 @@
 name: AdminTroll
 main: Swourire\AdminTroll\Main
 version: 1.2.0
-api: 3.2.0
+api: 3.0.0
 
 author: Swourire
 commands:
