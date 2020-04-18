@@ -46,3 +46,6 @@ It'll blow in the air whoever you touch !
 ## Switcher :
 
 Throw the snowball and switch with whoever you touch.
+
+### NEW :
+- You can now type /troll to see trolls that can be done with commands and their usage !
