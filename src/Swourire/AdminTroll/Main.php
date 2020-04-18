@@ -55,7 +55,7 @@ class Main extends PluginBase implements Listener
             switch($command->getName()){
                 case "admintroll":
                     TrollItems::addTrollInventory($sender);
-                    break;
+                    return true;
                 case "troll":
                     if (isset($args[0])) {
                             if(isset($args[1])){
@@ -117,7 +117,7 @@ class Main extends PluginBase implements Listener
                             } else {
                                 if($args[0] === "vanish") {
                                     (new Vanish($sender, $sender))->apply();
-                                    return false;
+                                    return true;
                                 }
                                 $this->sendUsage($sender);
                             }
@@ -127,7 +127,7 @@ class Main extends PluginBase implements Listener
                     break;
             }
         }
-        return false;
+        return true;
     }
 
     private function sendUsage(Player $sender): void
