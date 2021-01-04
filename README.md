@@ -1,7 +1,6 @@
-# AdminTroll-a-plugin-for-PocketMine-MP
+# AdminTroll
 
-In this plugin you have many trolls features !
-Many updates like setting your own items, or updates will be added.
+Trolling the players or user in your server by using this plugin!
 
 ## Real smite / Fake Smite :
 
