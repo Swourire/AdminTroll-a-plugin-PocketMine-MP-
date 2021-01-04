@@ -2,6 +2,6 @@
 branches:
 - master
 projects:
-  AdminTroll-a-plugin-PocketMine-MP-:
+  AdminTroll:
     path: ""
 ...
