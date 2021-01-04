@@ -4,6 +4,7 @@ namespace Swourire\AdminTroll\Troll\Trolls;
 
 use pocketmine\entity\Entity;
 use pocketmine\network\mcpe\protocol\AddActorPacket;
+use pocketmine\math\Vector3;
 use Swourire\AdminTroll\Troll\TrollBase;
 
 class FakeLightning extends TrollBase
