@@ -7,6 +7,7 @@ namespace Swourire\AdminTroll\Troll\Trolls;
 use pocketmine\entity\Entity;
 use pocketmine\network\mcpe\protocol\AddActorPacket;
 use pocketmine\math\Vector3;
+use pocketmine\level\particle\DestroyBlockParticle;
 use Swourire\AdminTroll\Troll\TrollBase;
 
 class RealLightning extends TrollBase
@@ -32,6 +33,10 @@ class RealLightning extends TrollBase
 	$lightning->pitch = $player->getPitch();
 	$lightning->position = new Vector3($player->getX(), $player->getY(), $player->getZ());
         $player->getServer()->broadcastPacket($level->getPlayers(), $lightning);
+        
+        $block = $player->getLevel()->getBlock($player->getPosition()->floor()->down());
+	$particle = new DestroyBlockParticle(new Vector3($player->getX(), $player->getY(), $player->getZ()), $block);
+	$player->getLevel()->addParticle($particle);
     }
 
     public function needsCancel(): bool
